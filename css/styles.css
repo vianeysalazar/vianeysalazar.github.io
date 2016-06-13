@@ -1,0 +1,208 @@
+h1,p,figure,img {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 920px;
+}
+
+.block-center {
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.cuerpo {
+    background-color: black;
+}
+
+/*ENCABEZADO*/
+
+#encabezado {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+#titulo h1 {
+    font-size: 3.7em;
+    padding-top: 10px;
+    color: white;
+}
+
+.titulo a img {
+    display: inline-block;
+}
+
+.logo-encabezado {
+    padding-left: 40px;
+}
+
+/*NOTA PRINCIPAL*/
+
+#nota-principal {
+    padding-top: 25px;}}{}
+}
+
+.sombra-imagen {
+    box-shadow: 15px 15px;
+    box-shadow: 0 0 5px Red;
+    border-radius: 2%;
+}
+
+/*NOTA SECUNDARIA*/
+
+#notas-secundarias {
+    min-height: 300px;
+    width: 920px;
+    display: inline-block;
+    float: left;
+    background-color: black;
+    padding-top: 40px;
+}
+
+#notas-secundarias h2 {
+    margin-bottom: 15;
+    font-variant: small-caps;
+    line-height: 0.7em;
+}
+
+#notas-secundarias article {
+    display: flex;
+    background-position: top;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.imagen-nota-secundaria {
+    position: relative;
+}
+
+.titulo-nota-secundaria {
+    font-size: 2em;
+    line-height: 0.7em;
+    font-variant: inherit;
+    color: red;
+}
+
+.cuerpo-nota-secundaria {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.intro-nota-secundaria {
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+    font-variant: normal;
+    color: white;
+}
+
+#notas-secundarias figure {
+    position: relative;
+}
+
+.cuerpo-nota-secundaria {
+    padding-left: 20px 0;
+    padding-right: 10px 0;
+}
+
+.titulo-nota-secundaria a {
+    color: red;
+    text-decoration: none;
+}
+
+.titulo-nota-secundaria a:hover {
+    color: red;
+    text-decoration: none;
+    transition: .10s;
+}
+
+.ver-mas {
+    margin: 0;
+    padding: 2px;
+    background-color: red;
+    display: inline-block;
+    transition: .5s;
+}
+
+.ver-mas div {
+    border: 2px solid black;
+    padding: 2px;
+}
+
+.ver-mas p {
+    color: black;
+    font-weight: bold;
+    font-variant: inherit;
+    padding: 0 20px;
+}
+
+.ver-mas: hover {
+    margin: 0;
+    padding: 2px;
+    background-color: red;
+    display: inline-block;
+    transition: .5s;
+}
+
+.audio {
+    width: 125px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.flexible {
+    display: flex;
+}
+
+/*Comienzo*/
+
+.Comienzo {
+    min-height:150px;
+    position: relative;
+    border: 1px solid red;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border-color: red;
+    color: white;
+    font-variant: small-caps;
+}
+    #anuncios
+{
+    width: 210px;
+    padding: 5px;
+    height: 290px;
+    background-color: white;
+}
+
+/*Videos 21pilots*/
+
+#videos-21pilots {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+/*Pie de pagina*/
+
+#pie {
+    height: 100px;
+    padding-top: 50px;
+}
+
+#pie p {
+    color: white;
+    font-variant: small-caps;
+}
+.Coldplay {
+    margin-bottom: 50px;
+}
+
+#videos-coldplay {
+    margin-top: 50px;
+}
